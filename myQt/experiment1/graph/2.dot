@@ -1,0 +1,16 @@
+digraph mygraph {
+label = "挿入 (3, 20, 25)";
+graph [autosize=false, size="8.5, 8.5"];
+fontname="Helvetica,Arial,sans-serif"
+node [shape=circle,fixedsize=true,width=1.2];
+node [fontname="Helvetica,Arial,sans-serif"]
+edge [fontname="Helvetica,Arial,sans-serif"]
+node [shape = circle];
+edge [arrowhead=vee style=dashed] "(15,22,8)" -> "(15,21,8)"edge [arrowhead=vee style=solid] "(15,22,8)" -> "(17,26,23)";
+edge [arrowhead=vee style=dashed] "(15,21,8)" -> "(1,2,20)"edge [arrowhead=vee style=solid] "(15,21,8)" -> "(13,27,12)";
+edge [arrowhead=vee style=dashed] "(17,26,23)" -> "(19,25,55)"edge [arrowhead=vee style=solid] "(17,26,23)" -> "(18,27,12)";
+edge [arrowhead=vee style=dashed] "(1,2,20)" -> "(14,20,7)"edge [arrowhead=vee style=solid] "(1,2,20)" -> "(10,20,50)";
+edge [arrowhead=vee style=dashed] "(13,27,12)" -> "(14,27,10)"edge [arrowhead=vee style=solid] "(13,27,12)" -> "(7,25,32)";
+edge [arrowhead=vee style=dashed] "(19,25,55)" -> "(18,22,21)"edge [arrowhead=vee style=solid] "(19,25,55)" -> "(20,24,56)";
+edge [arrowhead=vee style=dashed] "(18,27,12)" -> "(18,36,5)"edge [arrowhead=vee style=solid] "(18,27,12)" -> "(100,250,15)";
+edge [arrowhead=vee style=dashed] "(14,20,7)" -> "(12,19,12)"edge [arrowhead=vee style=dashed] "(10,20,50)" -> "(3,20,25)"edge [arrowhead=vee style=dashed] "(14,27,10)" -> "(12,23,9)"edge [arrowhead=vee style=dashed] "(18,22,21)" -> "(16,23,8)"}
