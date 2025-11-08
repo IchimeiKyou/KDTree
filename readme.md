@@ -32,6 +32,7 @@ KDTree/
 ---
 ## K-D Tree Project
 ### Overview
+A K-D tree (k-dimensional tree) is a binary search tree designed to efficiently store and search data in a multi-dimensional space. Each node holds a k-dimensional point and is split into left and right child nodes based on a specific dimension. This allows operations such as range search and nearest neighbor search to be performed efficiently. K-D trees are widely used in areas such as machine learning, computer graphics, and geographic information systems. <br>
 To use this system, Qt (v5.9.0) and graphviz(v3.0.0) are necessary.<br>
 You may download graphviz via https://graphviz.org/download/ and Qt via https://download.qt.io/archive/qt/ 
 
@@ -51,6 +52,7 @@ KDTree/
 ---
 ## K-D树项目
 ### 概述
+K-D 树（k 维树）是一种二叉搜索树，用于在多维空间中高效地存储和搜索数据。每个节点保存一个 k 维的点，并根据特定的维度将其分割为左右子节点。这使得范围搜索和最近邻搜索等操作能够高效地执行。K-D 树在机器学习、计算机图形学以及地理信息系统等领域得到广泛应用。<br>
 使用此系统需要 Qt（v5.9.0）和 Graphviz（v3.0.0）。<br>
 你可以通过 https://graphviz.org/download/ 下载 Graphviz，通过 https://download.qt.io/archive/qt/下载 Qt。
 
@@ -67,5 +69,6 @@ KDTree/
             ├── experiment1.pro
             └── graph/       // KD-Tree 的 .dot 和 .png 文件
 ```
+
 
 
