@@ -5,8 +5,6 @@ K-Dツリー（k-dimensional tree）は、多次元空間におけるデータ�
 このシステムを使用するには、Qt（v5.9.0）とGraphviz（v3.0.0）が必要です。<br>
 Graphvizは https://graphviz.org/download/ から、Qtは https://download.qt.io/archive/qt/ からダウンロードできます。
 
----
-
 ### ファイル
 ```text
 KDTree/
@@ -20,7 +18,7 @@ KDTree/
             ├── experiment1.pro
             └── graph/       // KD-Treeの.dotおよび.pngファイル
 ```
-## 実例
+### 実例
 - 初期化3次元のK-D木
 ![初期化](./Image/初期化.png "初期化3次元のK-D木")
 - 検索(20, 24, 56)
@@ -31,13 +29,12 @@ KDTree/
 ![削除](./Image/削除.png "削除(20, 24, 56)")
 - 上限下限検索(10, 10, 10) ~ (30, 30, 30)
 ![上限下限検索](./Image/上限下限検索.png "上限下限検索(10, 10, 10) ~ (30, 30, 30)")
-
+---
 ## K-D Tree Project
 ### Overview
 To use this system, Qt (v5.9.0) and graphviz(v3.0.0) are necessary.<br>
 You may download graphviz via https://graphviz.org/download/ and Qt via https://download.qt.io/archive/qt/ 
 
----
 ### Files
 ```text
 KDTree/
@@ -51,7 +48,7 @@ KDTree/
             ├── experiment1.pro
             └── graph/       // .dot and .png files of KD-Tree
 ```
-
+---
 ## K-D树项目
 ### 概述
 使用此系统需要 Qt（v5.9.0）和 Graphviz（v3.0.0）。<br>
@@ -70,3 +67,4 @@ KDTree/
             ├── experiment1.pro
             └── graph/       // KD-Tree 的 .dot 和 .png 文件
 ```
+
