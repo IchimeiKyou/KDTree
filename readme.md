@@ -8,7 +8,7 @@ Graphvizは https://graphviz.org/download/ から、Qtは https://download.qt.io
 ### ファイル
 ```text
 KDTree/
-├── myQt/
+└── myQt/
      ├── build-experiment1-Desktop_Qt_5_9_0_MinGW_32bit-Debug/
      └── experiment1/
             ├── main.cpp    // プログラムのエントリーポイント、Qtアプリケーションを初期化しメインウィンドウを表示
@@ -38,7 +38,7 @@ You may download graphviz via https://graphviz.org/download/ and Qt via https://
 ### Files
 ```text
 KDTree/
-├── myQt/
+└── myQt/
      ├── build-experiment1-Desktop_Qt_5_9_0_MinGW_32bit-Debug/
      └── experiment1/
             ├── main.cpp    // Program entry, initializes Qt application and shows main window
@@ -57,7 +57,7 @@ KDTree/
 ### 文件结构
 ```text
 KDTree/
-├── myQt/
+└── myQt/
      ├── build-experiment1-Desktop_Qt_5_9_0_MinGW_32bit-Debug/
      └── experiment1/
             ├── main.cpp    // 程序入口，初始化 Qt 应用并显示主窗口
@@ -67,4 +67,5 @@ KDTree/
             ├── experiment1.pro
             └── graph/       // KD-Tree 的 .dot 和 .png 文件
 ```
+
 
